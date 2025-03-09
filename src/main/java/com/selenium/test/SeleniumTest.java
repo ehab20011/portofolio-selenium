@@ -18,6 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SeleniumTest {
     public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver","/opt/homebrew/bin/chromedriver");
         //intialize the web driver
         WebDriver driver = new ChromeDriver();
         String url = "https://www.ehab.us/";
